@@ -111,6 +111,10 @@ nav ul a:hover { color: var(--accent); }
   max-width: 56ch;
   margin: 0 0 20px;
 }
+.hero-text p a {
+  color: inherit;
+  text-decoration: underline;
+}
 .links {
   display: flex;
   flex-wrap: wrap;
