@@ -187,6 +187,11 @@ section:last-child { border-bottom: none; }
   color: var(--ink);
   margin: 0 0 4px;
 }
+.pub-title a {
+  color: inherit;
+  text-decoration: none;
+}
+.pub-title a:hover { text-decoration: underline; }
 .pub-meta {
   font-size: 0.82rem;
   color: var(--ink-mid);
